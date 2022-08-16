@@ -6,7 +6,7 @@ function SignUpPage(){
     return(
         <LoginBg>
             <LoginFrame>
-                <h1 className="text-[50px]">Sign up</h1>
+                <h1 className="text-[50px] pt-2">Sign up</h1>
             </LoginFrame>
         </LoginBg>
     )
