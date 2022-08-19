@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LoginBg from "../components/LoginBg";
+import LoginBg from "../components/LoginBackground";
 import LoginFrame from "../components/LoginFrame";
 import Input from "../components/Input";
 import Button from "../components/Button";
