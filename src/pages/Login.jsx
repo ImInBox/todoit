@@ -18,4 +18,5 @@ function LoginPage(){
         </LoginBg>
     )
 }
+
 export default LoginPage;
