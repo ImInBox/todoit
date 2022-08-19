@@ -18,4 +18,5 @@ function SignUpPage(){
         </LoginBg>
     )
 }
+
 export default SignUpPage;

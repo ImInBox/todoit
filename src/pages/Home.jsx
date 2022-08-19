@@ -3,4 +3,5 @@ function HomePage(){
         <p className="text-purple-500">HOME</p>
     )
 }
+
 export default HomePage;
