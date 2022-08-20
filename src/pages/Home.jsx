@@ -1,17 +1,14 @@
-import Button from "../components/Button";
+import Background from "../components/Background";
+import Frame from "../components/Frame";
 
 function HomePage(){
     return(
-        <div className="p-[15%] h-screen w-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">   
-            <div className="flex flex-wrap h-full w-full border-dashed border-2 border-black drop-shadow-2xl bg-white rounded-xl text-center">
-                <div className="h-full w-[50%]">
-
-                </div>
-                <div className="h-full w-[50%] flex flex-col items-center">
-                    
-                </div>
-            </div>
-        </div>
+        <Background className="p-[15%]">   
+            <Frame className="flex flex-wrap h-full w-full">
+                <div className="h-full w-[50%]"/>
+                <div className="h-full w-[50%] flex flex-col items-center"/>
+            </Frame>
+        </Background>
     )
 }
 
