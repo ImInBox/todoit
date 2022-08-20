@@ -1,20 +1,16 @@
 ### TODOIT web app
 
 ## Pages:
-Home page: / (soon!🚀)
+Home page: ```/``` (soon!🚀)
 
-<details>
-    <summary>Login page: /login</summary>
-    ![Login page](https://i.imgur.com/jxqTOTP.png)
-</details>
 
-<details>
-  <summary>Signup page: /signup</summary>
+Login page: ```/login```
+![Login page](https://i.imgur.com/jxqTOTP.png)
 
-  ```
-  ![Signup page](https://i.imgur.com/66igLbn.png)
-  ```
-</details>
+
+Signup page: ```/signup```
+![Signup page](https://i.imgur.com/66igLbn.png)
+
 
 ## TODO:
 
