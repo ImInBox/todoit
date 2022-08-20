@@ -12,9 +12,11 @@ Signup page: ```/signup```
 ![Signup page](https://i.imgur.com/66igLbn.png)
 
 
-## What next:
+## TODO:
 
-- Home page 🍕
-- Firebase auth 🔥
-- Todo system ⌚
-- And more! 🐟
+- Login page ✅
+- Signup page ✅
+- Home page
+- Firebase auth
+- Todo system
+- And more!
