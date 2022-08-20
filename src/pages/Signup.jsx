@@ -7,7 +7,7 @@ import Button from "../components/Button";
 function SignUpPage(){
     return(
         <Background className="flex justify-center items-center">
-            <Frame>
+            <Frame className="h-[24rem] w-[24rem] text-center">
                 <h1 className="text-[50px] pt-8">Sign up</h1>
                 <Input placeholder="E-mail" type="email"/>
                 <Input placeholder="Password" type="password"/>
