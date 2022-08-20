@@ -19,7 +19,7 @@ function HomePage(){
                     <Button navigate="/signup" text="Signup" className="mt-2 mb-8"/>
                     <Frame className="text-center">
                         <h2 className="text-[30px] font-medium">Disclaimer!</h2>
-                        <p className="px-3 pb-1">todoit is now in beta!<br/>To sign in you will need <br/>"Beta token" given by administrator</p>
+                        <p className="px-3 pb-1">Todoit is now in beta!<br/>To sign in you will need <br/>"Beta token" given by administrator</p>
                     </Frame>
                     
                 </Frame>
