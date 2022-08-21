@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        dmMono: ['DM Mono', 'monospace'],
+        kanit: ['Kanit', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
