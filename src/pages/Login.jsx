@@ -8,7 +8,7 @@ function LoginPage(){
     return(
         <Background className="flex justify-center items-center">
             <Frame className="h-[24rem] w-[24rem] text-center">
-                <h1 className="text-[50px] pt-8">Login</h1>
+                <h1 className="text-[50px] pt-8 font-dmMono">Login</h1>
                 <Input placeholder="E-mail" type="email"/>
                 <Input placeholder="Password" type="password"/>
                 <Button text="Confirm"/>
