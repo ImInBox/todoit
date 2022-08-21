@@ -1,8 +1,8 @@
 ### TODOIT web app
 
 ## Pages:
-Home page: ```/``` (soon!🚀)
-
+Home page: ```/```
+![Home page](https://i.imgur.com/TJPuNeJ.png)
 
 Login page: ```/login```
 ![Login page](https://i.imgur.com/jxqTOTP.png)
