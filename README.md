@@ -16,7 +16,7 @@ Signup page: ```/signup```
 
 - Login page ✅
 - Signup page ✅
-- Home page
+- Home page ✅
 - Firebase auth
 - Todo system
 - And more!
