@@ -11,7 +11,7 @@ function SignUpPage(){
                 <h1 className="text-[50px] pt-8 font-dmMono">Sign up</h1>
                 <Input placeholder="E-mail" type="email"/>
                 <Input placeholder="Password" type="password"/>
-                <Button text="Confirm"/>
+                <Button type="submit" text="Confirm"/>
                 <p className="pt-3">Or you can <Link className="text-blue-600 underline" to="/login">login</Link></p>
             </Frame>
         </Background>
