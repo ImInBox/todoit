@@ -17,7 +17,7 @@ function SignUpPage(){
 
     const {dispatch} = useContext(AuthContext)
 
-    const handleLogin = (e) => {
+    const handleSignup = (e) => {
         e.preventDefault()
 
         createUserWithEmailAndPassword(auth, email, password)
@@ -36,7 +36,7 @@ function SignUpPage(){
         <Background className="flex justify-center items-center">
             <Frame className="h-[24rem] w-[24rem] text-center">
                 <h1 className="text-[50px] pt-8 font-dmMono">Sign up</h1>
-                <form onSubmit={handleLogin}>
+                <form onSubmit={handleSignup}>
                     <Input placeholder="E-mail" type="email" onChange={e=>setEmail(e.target.value)}/>
                     <Input placeholder="Password" type="password" onChange={e=>setPassword(e.target.value)}/>
                     <Button type="submit" text="Confirm"/>
