@@ -1,6 +1,7 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+import { Link, useNavigate} from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
+import { AuthContext } from "../context/AuthContext";
 import { auth } from "../firebase/firebase";
 import Input from "../components/Input";
 import Background from "../components/Background";
@@ -12,6 +13,10 @@ function LoginPage(){
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    const navigate = useNavigate()
+
+    const {dispatch} = useContext(AuthContext)
+
     const handleLogin = (e) => {
         e.preventDefault()
 
@@ -19,7 +24,8 @@ function LoginPage(){
             .then((userCredential) => {
               // Signed in 
               const user = userCredential.user;
-              console.log(user)
+              dispatch({type:"LOGIN", payload:user})
+              navigate("/")
             })
             .catch((error) => {
               setError(true)
