@@ -1,6 +1,7 @@
 import LoginPage from './pages/Login'
 import SignUpPage from './pages/Signup'
 import HomePage from './pages/Home'
+import SettingsPage from './pages/Settings'
 import { useContext } from 'react'
 import { Routes, Route, Navigate} from 'react-router-dom'
 import { AuthContext } from './context/AuthContext'
@@ -16,8 +17,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <RequireAuth> <HomePage /> </RequireAuth> } />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </div>
   );
