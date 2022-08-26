@@ -4,8 +4,10 @@ import { IconContext } from "react-icons";
 import { RiSettings3Fill, RiHome4Fill } from "react-icons/ri";
 
 function Sidebar(){
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(JSON.parse(localStorage.getItem("sidebarOpen", "true")) === true);
     const navigate = useNavigate()
+
+    isOpen ? localStorage.setItem("sidebarOpen", "true") : localStorage.setItem("sidebarOpen", "false")
 
     const sidebarItems = [
         {
