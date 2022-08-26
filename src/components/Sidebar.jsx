@@ -28,8 +28,8 @@ function Sidebar(){
             <div className="flex h-full w-[300px] flex-col">
                 <h1 className="ml-8 mb-2 font-kanit text-[60px]">TODO IT</h1>
                 <ul>
-                    {sidebarItems.map((item, index) => (
-                        <li key={index} onClick={() => navigate(item.link)} className="rounded duration-100 hover:bg-black hover:text-white m-2 p-2 flex items-center cursor-pointer">
+                    {sidebarItems.map((item) => (
+                        <li key={item.title} onClick={() => navigate(item.link)} className="rounded duration-100 hover:bg-black hover:text-white m-2 p-2 flex items-center cursor-pointer">
                             <IconContext.Provider value={{size: "25", className: "m-[5px] duration-100"}}>
                                 {item.icon}
                             </IconContext.Provider>
