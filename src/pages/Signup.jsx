@@ -37,9 +37,9 @@ function SignUpPage(){
             <Frame className="h-[24rem] w-[24rem] text-center">
                 <h1 className="text-[50px] pt-8 font-dmMono">Sign up</h1>
                 <form onSubmit={handleSignup}>
-                    <Input placeholder="E-mail" type="email" onChange={e=>setEmail(e.target.value)}/>
-                    <Input placeholder="Password" type="password" onChange={e=>setPassword(e.target.value)}/>
-                    <Button className={error ? "bg-red-500" : ""} type="submit" text="Confirm"/>
+                    <Input className={error ? "border-red-500" : ""} placeholder="E-mail" type="email" onChange={e=>setEmail(e.target.value)}/>
+                    <Input className={error ? "border-red-500" : ""} placeholder="Password" type="password" onChange={e=>setPassword(e.target.value)}/>
+                    <Button type="submit" text="Confirm"/>
                 </form>
                 <p className="pt-3">Or you can <Link className="text-blue-600 underline" to="/login">login</Link></p>
             </Frame>
