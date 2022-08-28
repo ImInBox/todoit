@@ -39,7 +39,7 @@ function LoginPage(){
                 <form onSubmit={handleLogin}>
                     <Input placeholder="E-mail" type="email" onChange={e=>setEmail(e.target.value)}/>
                     <Input placeholder="Password" type="password" onChange={e=>setPassword(e.target.value)}/>
-                    <Button type="submit" text="Confirm"/>
+                    <Button className={error ? "bg-red-500" : ""} type="submit" text="Confirm"/>
                 </form>
                 <p className="pt-3">Or you can <Link className="text-blue-600 underline" to="/signup">signup</Link></p>
             </Frame>
