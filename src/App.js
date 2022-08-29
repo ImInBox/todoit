@@ -17,9 +17,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={ <RequireAuth> <HomePage /> </RequireAuth> } />
+        <Route path="/settings" element={<RequireAuth> <SettingsPage /> </RequireAuth>} />
+        
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </div>
   );
