@@ -36,6 +36,7 @@ function Sidebar(){
 
     return(
         <>
+        <div className={`h-full duration-300 w-0 ${isOpen ? "p-[150px]" : "p-0"}`}/>
         <div className={`rounded-r duration-300 top-0 left-0 bg-white fixed ${isOpen ? "" : "-translate-x-[300px]"} h-full`}>
             <div className="flex h-full w-[300px] flex-col">
                 <h1 className="ml-8 mb-2 font-kanit text-[60px]">TODO IT</h1>
