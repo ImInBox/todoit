@@ -20,4 +20,3 @@ Signup page: ```/signup```
 - Firebase auth ✅
 - Todo system
 - Settings
-- And more!
