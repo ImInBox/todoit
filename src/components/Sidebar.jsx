@@ -3,7 +3,7 @@ import { useNavigate} from "react-router-dom";
 import { IconContext } from "react-icons";
 import { auth } from "../firebase/firebase";
 import { signOut } from "firebase/auth"
-import { RiSettings3Fill, RiHome4Fill, RiLogoutBoxRLine } from "react-icons/ri";
+import { RiFileListFill, RiSettings3Fill, RiHome4Fill, RiLogoutBoxRLine } from "react-icons/ri";
 
 function Sidebar(){
     const [isOpen, setIsOpen] = useState(JSON.parse(localStorage.getItem("sidebarOpen", "true")) === true);
@@ -16,6 +16,11 @@ function Sidebar(){
             title: "Home",
             icon: <RiHome4Fill/>,
             link: "/",
+        },
+        {
+            title: "todo",
+            icon: <RiFileListFill/>,
+            link: "/todo",
         },
         {
             title: "Settings",
